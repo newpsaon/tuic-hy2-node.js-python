@@ -1,4 +1,26 @@
-# 1.Hysteria2在Nodejs/Python一键脚本极简部署（Pterodactyl 翼龙面板）
+打开VPS官网，点击“开始使用”或“注册账号”。
+
+填写用户名、电子邮箱（推荐Gmail）并设置密码，点击创建账户。
+
+前往你的邮箱，找到激活邮件并点击链接完成激活。
+
+登录官网后，找到“添加服务器”或“创建服务器”。
+
+配置服务器：
+
+名称： 随意填写（例如：001）
+
+节点选择： 建议选择“节点6（美国）”
+
+创建服务器软件选择：
+
+node.js generic
+修改启动选项（Startup）变量参数
+
+bash
+一键安装脚本
+
+curl -Ls https://raw.githubusercontent.com/eishare/tuic-hy2-node.js-python/main/hy2.sh | sed 's/\r$//' | bash -s -- 替换为你的端口# 1.Hysteria2在Nodejs/Python一键脚本极简部署（Pterodactyl 翼龙面板）
 
 * 更新自适应端口，无需再手动设置
 
